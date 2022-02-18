@@ -12,5 +12,4 @@ object RetrofitClient {
             .build()
             .create(PunkApiService::class.java)
     }
-
 }

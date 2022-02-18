@@ -179,7 +179,7 @@ R11=0x000000071018dde8 is an oop: java.lang.Class
  - private volatile transient 'reflectionData' 'Ljava/lang/ref/SoftReference;' @68  NULL (0)
  - private volatile transient 'genericInfo' 'Lsun/reflect/generics/repository/ClassRepository;' @72  NULL (0)
  - private volatile transient 'enumConstants' '[Ljava/lang/Object;' @76  NULL (0)
- - private volatile transient 'enumConstantDirectory' 'Ljava/util/Map;' @80  NULL (0)
+ - private volatile transient 'enumConstantDirectory' 'Ljava/utils/Map;' @80  NULL (0)
  - private volatile transient 'annotationData' 'Ljava/lang/Class$AnnotationData;' @84  NULL (0)
  - private volatile transient 'annotationType' 'Lsun/reflect/annotation/AnnotationType;' @88  NULL (0)
  - transient 'classValueMap' 'Ljava/lang/ClassValue$ClassValueMap;' @92  NULL (0)
@@ -561,7 +561,7 @@ CodeHeap 'non-nmethods': size=5760Kb used=1408Kb max_used=1430Kb free=4351Kb
 Compilation events (20 events):
 Event: 0.847 Thread 0x000001bff0fddc10 1093       3       androidx.compose.runtime.Stack::push (9 bytes)
 Event: 0.847 Thread 0x000001bff364c850 nmethod 1067 0x000001bfdd1c2a10 code [0x000001bfdd1c2be0, 0x000001bfdd1c36b8]
-Event: 0.847 Thread 0x000001bff364c850 1024       4       java.util.Arrays::copyOf (19 bytes)
+Event: 0.847 Thread 0x000001bff364c850 1024       4       java.utils.Arrays::copyOf (19 bytes)
 Event: 0.847 Thread 0x000001bff0fddc10 nmethod 1093 0x000001bfd5de0790 code [0x000001bfd5de0960, 0x000001bfd5de0e28]
 Event: 0.848 Thread 0x000001bff364c850 nmethod 1024 0x000001bfdd1c3a10 code [0x000001bfdd1c3ba0, 0x000001bfdd1c3e58]
 Event: 0.848 Thread 0x000001bff364c850 1083       4       java.nio.Buffer::scope (17 bytes)
@@ -577,7 +577,7 @@ Event: 0.856 Thread 0x000001bff0fddc10 1096       3       java.lang.Enum::<init>
 Event: 0.856 Thread 0x000001bff0fddc10 nmethod 1096 0x000001bfd5de1410 code [0x000001bfd5de15a0, 0x000001bfd5de1778]
 Event: 0.858 Thread 0x000001bff0fddc10 1097       3       androidx.compose.runtime.Stack::getSize (8 bytes)
 Event: 0.858 Thread 0x000001bff0fddc10 nmethod 1097 0x000001bfd5de1810 code [0x000001bfd5de19a0, 0x000001bfd5de1ad8]
-Event: 0.859 Thread 0x000001bff0fddc10 1098       3       java.util.zip.ZipUtils::get16 (21 bytes)
+Event: 0.859 Thread 0x000001bff0fddc10 1098       3       java.utils.zip.ZipUtils::get16 (21 bytes)
 Event: 0.859 Thread 0x000001bff0fddc10 nmethod 1098 0x000001bfd5de1b90 code [0x000001bfd5de1d20, 0x000001bfd5de1e78]
 
 GC Heap History (2 events):
@@ -685,16 +685,16 @@ Event: 0.855 loading class java/lang/CloneNotSupportedException
 Event: 0.855 loading class java/lang/CloneNotSupportedException done
 Event: 0.860 loading class java/io/StringWriter
 Event: 0.860 loading class java/io/StringWriter done
-Event: 0.861 loading class java/util/BitSet
-Event: 0.861 loading class java/util/BitSet done
-Event: 0.862 loading class java/util/concurrent/atomic/AtomicIntegerArray
-Event: 0.862 loading class java/util/concurrent/atomic/AtomicIntegerArray done
+Event: 0.861 loading class java/utils/BitSet
+Event: 0.861 loading class java/utils/BitSet done
+Event: 0.862 loading class java/utils/concurrent/atomic/AtomicIntegerArray
+Event: 0.862 loading class java/utils/concurrent/atomic/AtomicIntegerArray done
 Event: 0.862 Thread 0x000001bff35b1880 Thread added: 0x000001bff35b1880
 Event: 0.862 Thread 0x000001bff35b3090 Thread added: 0x000001bff35b3090
-Event: 0.863 loading class java/util/UUID
-Event: 0.863 loading class java/util/UUID done
-Event: 0.863 loading class java/util/Currency
-Event: 0.863 loading class java/util/Currency done
+Event: 0.863 loading class java/utils/UUID
+Event: 0.863 loading class java/utils/UUID done
+Event: 0.863 loading class java/utils/Currency
+Event: 0.863 loading class java/utils/Currency done
 
 
 Dynamic libraries:
